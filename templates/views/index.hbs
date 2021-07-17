@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+
+    {{>header}}   
+
+        
+    <section>
+    <h1>MAYANK KUMAR SINGH {{name}}</h1>
+    <h2>A SOFTWARE ENGINEER AND FULL STACK WEB DEVELOPER</h2>
+ 
+    <div id="photo"></div>
+    <span class="photo">
+        <img src="portfoliophoto.jpg" alt="">
+    </span>
+    <div class="text" id="text">
+        <p>Welcome to my portfolio.</p>
+        <p>I'm a third year student, learning skills in Software development and Web development . I'm searching for an internship where i can upgrade my skills and knowledge.</p>
+    </div>
+    <div class="text text1">
+        <p><b><u>SKILLS</u></b></p>
+        <ul>
+            <li>C programming</li>
+            <li>Java programming</li>
+            <li>MySQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+        </ul>
+
+    </div>
+    <div class="text text3" id="text3">
+        <p style="color: aliceblue;"><b><u>PROJECTS</u></b></p>
+        <span class="photo1">
+            <img src="project1.jpg" alt="">
+        </span>
+        <p style="font-family: 'Josefin Sans', sans-serif; font-weight: 900;">Hotel Management System</p>
+    </div>
+    
+    <div class="text text3" id="text4">
+        <p style="color: aliceblue;"><b><u>RESUME</u></b></p>
+        <a href="MAYANK's Resume.pdf" download="MAYANK's Resume" style="font-family: 'Josefin Sans', sans-serif; font-weight: 900;">MAYANK's Resume </a>
+    </div>
+
+    {{>footer}}
+   
+     </section>
+
+
+</body>
+</html>
